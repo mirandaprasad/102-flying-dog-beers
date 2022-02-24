@@ -4,7 +4,7 @@ import dash_html_components as html
 import plotly.graph_objs as go
 
 ########### Define your variables
-tvshow=['Lost', 'The Americans', 'Parks and Recreation', 'Avatar: The Last Airbender']
+tvshow=['Lost', 'The Americans', 'Parks and Recreation', 'Avatar The Last Airbender']
 critic_rating=[85, 96, 93, 100]
 audience_rating=[80, 90, 91, 96]
 color1='lightblue'
