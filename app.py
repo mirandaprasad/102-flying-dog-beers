@@ -21,14 +21,14 @@ sourceurl='https://www.flyingdog.com/beers/'
 
 ########### Set up the chart
 bitterness = go.Bar(
-    x=beers,
-    y=ibu_values,
+    x=tvshow,
+    y=critic_rating,
     name=label1,
     marker={'color':color1}
 )
 alcohol = go.Bar(
-    x=beers,
-    y=abv_values,
+    x=tvshow,
+    y=audience_rating,
     name=label2,
     marker={'color':color2}
 )
